@@ -1,0 +1,24 @@
+$type-base: 'Raleway', sans-serif;
+$type-heading: 'Josefin Slab', serif;
+$type-linewidth: 37em;
+$type-color-body: #4C4C4C;
+$type-color-headings: #3F3F3F;
+$type-color-links: #EB635F;
+$type-color-linksdark: #FFACAA;
+
+$color-accent: #388287;
+
+// Breakpoints
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
+@import "partials/toc";
+@import "partials/typography";
+@import "partials/components";
+@import "partials/layout";
+@import "partials/media";
+@import "partials/site-nav-menu-button";
+@import "partials/structure";
+@import "partials/animation";
